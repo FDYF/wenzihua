@@ -58,7 +58,7 @@ def Color(x):
     if c=='yellow':
         return (255,255,col)
 #字体大小等于新图片像素除以原图片像素，这样每个字一个像素
-image=Image.new(mode='RGB',size=(2560,height*10),color=(255，255，255))
+image=Image.new(mode='RGB',size=(2560,height*10),color=(255,255,255))
 drawer=ImageDraw.Draw(image)
 #发现字体大小等于每个字的长宽
 font=ImageFont.truetype("simsun.ttc",10)
