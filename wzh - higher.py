@@ -15,8 +15,8 @@ width,height=img_grey.size
 #获取每一个像素的灰度值
 pixels=img_grey.load()
 list_color=[]
-dangshu=int(input('请输入颜色档数，必须在2-256之间：'))
-if dangshu<2 or dangshu>256:
+dangshu=int(input('请输入颜色档数，必须在2-255之间：'))
+if dangshu<2 or dangshu>255:
     print('这个档数不行哦，已为您把档数设置为默认值4')
     dangshu=4
 #把灰度值转为四档，之后用来设置字体颜色
